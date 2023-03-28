@@ -29,7 +29,7 @@ const App: React.FunctionComponent = () => {
               rtcProps={{
                 appId: '441150b9073b4ca7acbeb81d00f5c035',
                 channel: 'demo',
-                token: '007eJxTYJg0lW2mha+2+/Pkb+4NtUt+9VY8rE44HlNx5TW/W7b49RsKDCYmhoamBkmWBubGSSbJieaJyUmpSRaGKQYGaabJBsamv3JkUxoCGRk8XBYyMTJAIIjPwpCSmpvPwAAAdjUfzQ==', // add your token if using app in secured mode
+                token: '007eJxTYLA4+fazkqz7t+PnPrGL892/08lWfjx2gsqCTdzmz/Pnv9VTYDAxMTQ0NUiyNDA3TjJJTjRPTE5KTbIwTDEwSDNNNjA2PVGnlNIQyMiQ61nIyMgAgSA+C0NKam4+AwMAdrQfeA==', // add your token if using app in secured mode
                 role: isHost ? 'host' : 'audience',
                 layout: isPinned ? layout.pin : layout.grid,
                 enableScreensharing: true
@@ -87,4 +87,4 @@ const styles = {
   input: { display: 'flex', height: 24, alignSelf: 'center' } as CSSProperties
 }
 
-export default App
+export default App;
